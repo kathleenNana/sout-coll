@@ -23,7 +23,7 @@ def preprocess_data(data, categorical_columns):
     return encoded_data, label_encoders
 
 # Charger les données
-file_path = "data_imputationfinal.xlsx"  # Remplacez par votre fichier
+file_path = "Page/data_imputationfinal.xlsx"  # Remplacez par votre fichier
 data = load_data(file_path)
 
 # Colonnes pour chaque tâche
